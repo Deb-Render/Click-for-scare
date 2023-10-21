@@ -25,3 +25,16 @@ function scariest(){
     boy.classList.toggle('hidden')
 
 }
+
+function sounda(){
+    var snd = new Audio('/assets/audio/clown-darkness.wav')//wav is also supported
+    snd.play()//plays the sound
+}
+function soundb(){
+    var snd = new Audio('/assets/audio/scream-eat-you-alive.wav')//wav is also supported
+    snd.play()//plays the sound
+}
+function soundc(){
+    var snd = new Audio('/assets/audio/boy-scream.wav')//wav is also supported
+    snd.play()//plays the sound
+}

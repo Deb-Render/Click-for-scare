@@ -4,16 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/assets/css/style.css">
     <title>Click For Scare</title>
 </head>
 <body>
     
-    <h1>Your Choice</h1>
+    <h1>Click a button if you Dare!</h1>
     <section class="mainImages">
 <div class="container">
    <iframe id="clown" class="hidden" src="https://giphy.com/embed/5oWpOD8Thsmo8" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/horror-black-and-white-creepy-5oWpOD8Thsmo8"></a></p>
-<button id="scary" class="buttons">Scary</button>
+
 </div>
 
 
@@ -21,21 +24,31 @@
 <div class="container">
    <iframe id="scream" class="hidden" src="https://giphy.com/embed/tQNWLR2vMkQfZCPfSb" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/ScreamMovies-scream-movie-5-tQNWLR2vMkQfZCPfSb"></a></p>
     
-    <button id="scarier" class="buttons">Scarier</button>
+    
 </div>
 
 
 <div class="container">
    <iframe id="boy" class="hidden" src="https://giphy.com/embed/1qj43zb19qDsjLxMao" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/ashvsevildead-season-3-1qj43zb19qDsjLxMao"></a></p>
-    <button id="scariest" class="buttons">Scariest</button>
+   
 </div>
+
 
     </section>
 
-    <h2>Click a button if you Dare!</h2>
+
+    
+
+    <footer class="footer">
+       
+            <div class="butts-container">
+            <button id="scary" class="buttons" onclick="sounda()" >Scary</button>
+            <button id="scarier" class="buttons" onclick="soundb()">Scarier</button>
+            <button id="scariest" class="buttons" onclick="soundc()">Scariest</button>
+            </div>
+    
+    </footer>
 
     <script src="/assets/js/main.js"></script>
-
-
 </body>
 </html>
